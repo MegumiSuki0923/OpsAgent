@@ -11,7 +11,6 @@ from .detectors.statistical import StatisticalDetector
 
 mcp = FastMCP("anomaly-detection")
 
-
 @mcp.tool()
 async def detect_anomaly(
     metric_values: list[float],

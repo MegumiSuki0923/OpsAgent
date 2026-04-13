@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
+.DS_Store
 .env
 data/chroma_db/
 data/nab_sample/*.csv
